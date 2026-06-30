@@ -34,7 +34,7 @@ export struct LandscapeVideo {
 
   build() {
     NavDestination() {
-      Stack() {
+      FolderStack({ upperItems: ['upperVideoPlayer'] }) {
         Column() {
           XComponent({
             id: 'xmComponent',
@@ -156,6 +156,7 @@ export struct LandscapeVideo {
         .gestureStyle()
         .id('lowerControls')
       }
+      .enableAnimation(false)
       .alignContent(Alignment.Center)
     }
     .backgroundColor(Color.Black)
