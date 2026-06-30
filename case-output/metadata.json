@@ -1,0 +1,29 @@
+{
+  "case_id": "folder_case_01_hover",
+  "mode": "from_base",
+  "source_base_commit": "23d4ec3a8770be4d93f6d4b14d9d5b4ef2142541",
+  "source_answer_commit": null,
+  "removal_commits": [],
+  "golden_commits": [
+    "1dfe2f0b8adae7c4d705a18d11f55887e5455411"
+  ],
+  "test_commits": [
+    "7f354f084367f58d96935be92805e0e307a2696f"
+  ],
+  "generated_base_commit": "23d4ec3a8770be4d93f6d4b14d9d5b4ef2142541",
+  "generated_answer_commit": "b5c008af9a4d0db98a086f1903614aa6a19141ef",
+  "generated_test_commit": "34c1cdb12d3638b729c1071b6ba93a6910c174c8",
+  "golden_patch": "golden_patch.patch",
+  "test_patch": "test_patch.patch",
+  "base_project": "base",
+  "fail_to_pass": [
+    "HoverTest hover_videoBottomNearHalf",
+    "HoverTest hover_videoHeightAboutHalf",
+    "HoverTest hover_videoCenterInUpperQuarter",
+    "HoverTest hover_controlsInLowerHalf",
+    "HoverTest hover_repeatableConstrain"
+  ],
+  "pass_to_pass": [
+    "ActsAbilityTest assertContain"
+  ]
+}

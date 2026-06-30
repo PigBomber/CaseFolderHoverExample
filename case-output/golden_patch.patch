@@ -1,0 +1,21 @@
+diff --git a/components/module_swipeplayer/src/main/ets/views/LandscapeVideo.ets b/components/module_swipeplayer/src/main/ets/views/LandscapeVideo.ets
+index 031a92d..41b4a69 100644
+--- a/components/module_swipeplayer/src/main/ets/views/LandscapeVideo.ets
++++ b/components/module_swipeplayer/src/main/ets/views/LandscapeVideo.ets
+@@ -34,7 +34,7 @@ export struct LandscapeVideo {
+ 
+   build() {
+     NavDestination() {
+-      Stack() {
++      FolderStack({ upperItems: ['upperVideoPlayer'] }) {
+         Column() {
+           XComponent({
+             id: 'xmComponent',
+@@ -156,6 +156,7 @@ export struct LandscapeVideo {
+         .gestureStyle()
+         .id('lowerControls')
+       }
++      .enableAnimation(false)
+       .alignContent(Alignment.Center)
+     }
+     .backgroundColor(Color.Black)

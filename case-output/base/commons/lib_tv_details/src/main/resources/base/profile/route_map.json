@@ -1,0 +1,9 @@
+{
+  "routerMap": [
+    {
+      "name": "VideoProgramDetails",
+      "pageSourceFile": "src/main/ets/views/VideoProgramDetails.ets",
+      "buildFunction": "VideoProgramDetailsBuilder"
+    }
+  ]
+}
